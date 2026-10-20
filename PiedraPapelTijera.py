@@ -8,9 +8,9 @@ jugador2 = input ("Elige Piedra (PI), Papel (PA), o Tijera (T) para " + nombre2 
 
 if jugador1 == jugador2:
     print ("Empate")
-elif ((jugador1.upper=="PI" and jugador2.upper == "T") 
-      or (jugador1.upper=="PA" and jugador2.upper == "PI")
-      or (jugador1.upper=="T" and jugador2.upper == "PA")):
+elif ((jugador1.upper() == "PI" and jugador2.upper() == "T") 
+      or (jugador1.upper() == "PA" and jugador2.upper() == "PI")
+      or (jugador1.upper() == "T" and jugador2.upper() == "PA")):
     print (nombre1,"gana!")
 else: 
     print (nombre2, "gana!")
